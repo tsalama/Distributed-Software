@@ -1,0 +1,9 @@
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\bin\Debug\HW1WindowsFormsApplication.exe.config
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\bin\Debug\HW1WindowsFormsApplication.exe
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\bin\Debug\HW1WindowsFormsApplication.pdb
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\obj\Debug\HW1WindowsFormsApplication.csprojResolveAssemblyReference.cache
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\obj\Debug\HW1WindowsFormsApplication.Form1.resources
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\obj\Debug\HW1WindowsFormsApplication.Properties.Resources.resources
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\obj\Debug\HW1WindowsFormsApplication.csproj.GenerateResource.Cache
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\obj\Debug\HW1WindowsFormsApplication.exe
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\HW1WindowsFormsApplication\obj\Debug\HW1WindowsFormsApplication.pdb

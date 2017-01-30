@@ -1,0 +1,12 @@
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\bin\Debug\Browser.exe.config
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\bin\Debug\Browser.exe
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\bin\Debug\Browser.pdb
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\obj\Debug\Browser.csprojResolveAssemblyReference.cache
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\obj\Debug\Browser.Form1.resources
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\obj\Debug\Browser.Properties.Resources.resources
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\obj\Debug\Browser.csproj.GenerateResource.Cache
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\obj\Debug\Browser.exe
+c:\users\tarek\documents\visual studio 2015\Projects\Browser\obj\Debug\Browser.pdb
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\Browser\bin\Debug\Browser.exe.config
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\Browser\obj\Debug\Browser.exe
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Homework1\Browser\obj\Debug\Browser.pdb

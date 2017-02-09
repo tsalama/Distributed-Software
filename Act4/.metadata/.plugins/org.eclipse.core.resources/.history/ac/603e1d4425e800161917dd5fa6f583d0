@@ -1,0 +1,25 @@
+public class Worker extends Thread {
+	int start;
+	int end;
+	int count;
+	String str;
+
+	Worker(int start, int end, String str) {
+		this.start = start;
+		this.end = end;
+		this.str = str;
+		count = 0;
+	}
+
+	// Computes the count for the start->end section in the string
+	public void run() {
+		for (int i = start; i < end; i++) {
+			//if ()
+		}
+		// sync.release();
+	}
+
+	public double getCount() {
+		return count;
+	}
+}

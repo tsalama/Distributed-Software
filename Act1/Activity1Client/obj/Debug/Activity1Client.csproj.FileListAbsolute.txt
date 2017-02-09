@@ -4,3 +4,6 @@ C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Activity1Client\b
 C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Activity1Client\obj\Debug\Activity1Client.csprojResolveAssemblyReference.cache
 C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Activity1Client\obj\Debug\Activity1Client.exe
 C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Activity1Client\obj\Debug\Activity1Client.pdb
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Act1\Activity1Client\bin\Debug\Activity1Client.exe.config
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Act1\Activity1Client\obj\Debug\Activity1Client.exe
+C:\Users\Tarek\Desktop\ASU\Semester 6\445\Distributed-Software\Act1\Activity1Client\obj\Debug\Activity1Client.pdb

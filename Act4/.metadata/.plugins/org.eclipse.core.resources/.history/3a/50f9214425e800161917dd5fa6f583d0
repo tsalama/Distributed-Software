@@ -1,0 +1,42 @@
+public class Worker extends Thread {
+	String str;
+	int start;
+	int end;
+	int digitsCount;
+	int upperCount;
+	boolean isPal;
+
+	Worker(int start, int end, String str) {
+		this.start = start;
+		this.end = end;
+		this.str = str;
+		digitsCount = 0;
+		upperCount = 0;
+		isPal = true;
+	}
+
+	// Computes the count for the start->end section in the string
+	public void run() {
+		for (int i = start; i < end; i++) {
+			if (Character.isDigit(str.charAt(i)))
+				digitsCount++;
+			if (Character.isUpperCase((str.charAt(i))))
+				upperCount++;
+			if (str.charAt(i) != str.charAt(str.length() - 1 - i))
+				isPal = false;
+		}
+		// sync.release();
+	}
+
+	public int getDigitsCount() {
+		return digitsCount;
+	}
+	
+	public int getUpperCount() {
+		return upperCount;
+	}
+
+	public boolean isPalindrome() {
+		return isPal;
+	}	
+}

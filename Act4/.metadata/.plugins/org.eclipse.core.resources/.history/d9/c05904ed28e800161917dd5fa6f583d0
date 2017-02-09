@@ -1,0 +1,81 @@
+import java.util.*;
+
+public class AnalyzeString {
+	public static void main(String[] args) {
+		System.out.println("Please enter a string: ");
+		Scanner scan = new Scanner(System.in);
+		String str = scan.nextLine();
+
+		long startTime = System.currentTimeMillis();
+		long endTime = 0;
+		
+		int numWorkers = 10;
+		// Make and start all the workers, keeping them in a list.
+		List<DigitCountThread> digitWorkers = new ArrayList<DigitCountThread>();
+		List<UpperCountThread> upperWorkers = new ArrayList<UpperCountThread>();
+		List<PalindromeThread> palindromeWorkers = new ArrayList<PalindromeThread>();
+
+		int lenOneWorker = str.length() / numWorkers;
+		
+		for (int i = 0; i < numWorkers; i++) {
+			int start = i * lenOneWorker;
+			int end = (i + 1) * lenOneWorker;
+		
+		// Special case: make the last worker take up all the excess.
+		if (i == numWorkers - 1) end = str.length();
+		
+		// Create an instance of DigitCountThread
+		// Create an instance of UpperCountThread
+		DigitCountThread digitWorker = new DigitCountThread(start, end, str);
+		UpperCountThread upperWorker = new UpperCountThread(start, end, str);
+		PalindromeThread palindromeWorker = new PalindromeThread(start, end, str);
+
+		digitWorkers.add(digitWorker);
+		upperWorkers.add(upperWorker);
+		palindromeWorkers.add(palindromeWorker);
+		 
+		// Start DigitCountThread instance created above
+		// Start upperCountThread instance created above
+		 
+		digitWorker.start();
+		upperWorker.start();
+		palindromeWorker.start();
+		}
+
+		// Wait for the three threads to complete
+
+		try{
+			for(int i = 0; i < digitWorkers.size(); i++)
+				digitWorkers.get(i).join();
+		}
+		catch(InterruptedException ignored) {}
+				
+		endTime = System.currentTimeMillis();
+
+		System.out.println("Time elapsed using threads: " + (endTime - startTime));
+
+		/////
+
+		// The following code does the same operation above without thread
+		startTime = System.currentTimeMillis();
+
+/*		int[] array = new int[len];
+		for (int i = 0; i < len; i++)
+			array[i] = i * 1.2;
+
+		int count = 0;
+		for (int i = 0; i < len; i++)
+			count += array[i];
+
+		endTime = System.currentTimeMillis();
+
+		System.out.println("Time elapsed without threads: " + (endTime - startTime));*/
+		
+		/////
+
+
+
+
+		// Display digit count, upper count, and whether the string is a palindrome or not
+	}
+}
